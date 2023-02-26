@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Karla';
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h4, h2, p {
+    margin: 0;
+}
+
+#outercard {
+    width: 600px;
+    height: 500px;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    border-radius: 5px;
+    overflow: hidden;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+#topsec {
+    width: 100%;
+    height: 45%;
+    padding: 40px;
+}
+
+#bottomsec {
+    width: 100%;
+    height: 55%;
+    color: white;
+}
+
+#leftsec {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    background-color: #2ab2af;
+    padding: 20px
+}
+
+#rightsec {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    background-color: #2ebfbd;
+    padding: 20px;
+}
+
+#topsec h2{
+    color:#2ab2af;
+    margin-bottom: 20px;
+}
+
+#topsec h4{
+    color: #c0df34;
+    margin-bottom: 10px;
+}
+
+#topsec p{
+    color: #98a6bd;
+}
+
+button {
+    color: white;
+    background-color: #c0df34;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+#price {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+#leftsec h4 {
+    margin-bottom: 25px;
+}
+
+#price, #pricemonth {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#pricemonth{
+    position: relative;
+    top: -3px;
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-left: 5px;
+}
+
+#leftsec p{
+    font-size: 0.8rem;
+    margin-bottom: 60px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+li{
+    margin-top: 7px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #a9c42d;
+    transform: scale(1.02);
+}
